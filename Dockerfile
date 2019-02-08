@@ -1,9 +1,9 @@
-FROM alpine:3.8
+FROM alpine:3.9
 
 MAINTAINER Youssef GHOUBACH <ghoubach.youssef@gmail.com>
 
 RUN apk add --update \
-    mongodb=3.6.7-r0
+    mongodb=4.0.5-r0
 
 VOLUME /data/db
 
